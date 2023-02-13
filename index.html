@@ -1,83 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
+	<meta charset="UTF-8"/>
+	<link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<title>Docs | Artific UI</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1"/>
-	<link rel="shortcut icon" href="./static/logo.svg" type="image/x-icon">
-	<style>html, body {
-		overflow: hidden;
-		height: 100%;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-
-	* {
-		box-sizing: border-box;
-	}</style>
-	<script>/* globals window */
-	/* eslint-disable no-underscore-dangle */
-	try {
-		if (window.top!==window) {
-			window.__REACT_DEVTOOLS_GLOBAL_HOOK__=window.top.__REACT_DEVTOOLS_GLOBAL_HOOK__;
-		}
-	} catch (e) {
-		// eslint-disable-next-line no-console
-		console.warn('unable to connect to top frame for connecting dev tools');
-	}
-
-	window.onerror=function onerror(message, source, line, column, err) {
-		if (window.CONFIG_TYPE!=='DEVELOPMENT') return;
-		// eslint-disable-next-line no-var, vars-on-top
-		var xhr=new window.XMLHttpRequest();
-		xhr.open('POST', '/runtime-error');
-		xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
-		xhr.send(
-			JSON.stringify({
-				/* eslint-disable object-shorthand */
-				message: message,
-				source: source,
-				line: line,
-				column: column,
-				error: err && {message: err.message, name: err.name, stack: err.stack},
-				origin: 'manager',
-				/* eslint-enable object-shorthand */
-			})
-		);
-	};</script>
-	<style>#root[hidden],
-	#docs-root[hidden] {
-		display: none !important;
-	}</style>
+	<link rel="stylesheet" href="/css/prism.css">
+  <script type="module" crossorigin src="/assets/index-a09e6e87.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/index-4036b115.js">
+  <link rel="modulepreload" crossorigin href="/assets/index-681e4b07-a732b956.js">
+  <link rel="stylesheet" href="/assets/index-49e34a03.css">
 </head>
 <body>
 <div id="root"></div>
-<div id="docs-root"></div>
-<script>window['CONFIG_TYPE']="PRODUCTION";
+<!--<script src="/js/bootstrap.js"></script>-->
 
-
-window['LOGLEVEL']="info";
-
-
-window['FEATURES']={
-	"postcss": true,
-	"emotionAlias": false,
-	"warnOnLegacyHierarchySeparator": true,
-	"buildStoriesJson": false,
-	"storyStoreV7": false,
-	"modernInlineRender": false,
-	"breakingChangesV7": false,
-	"interactionsDebugger": false,
-	"babelModeV7": false,
-	"argTypeTargetsV7": false,
-	"previewMdx2": false
-};
-
-
-window['DOCS_MODE']=true;</script>
-<script src="runtime~main.4b20edb259c8cdf61bff.manager.bundle.js"></script>
-<script src="436.ae2127b6e2e6feefe033.manager.bundle.js"></script>
-<script src="main.3b5783d9b22ea72f872f.manager.bundle.js"></script>
 </body>
 </html>
